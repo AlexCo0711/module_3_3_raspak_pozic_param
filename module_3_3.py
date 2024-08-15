@@ -15,8 +15,6 @@ print_params(c = [1,2,3]) # не указанный параметр (a, b) до
 # Task 2
 values_list = [False, 17, 'one'] # создан список
 values_dict = {'a' : 'one', 'b' : 19, 'c' : True} # создан словарь
-# def print_params2(a, b, c): # объявлена функция с параметрами
-#    print(a, b, c)
 
 print_params(*values_list) # передача в функцию распакованного списка
 print_params(**values_dict) # передача в функцию распакованного словаря
